@@ -1,11 +1,15 @@
 /* ============================
-   General body styles
+   Reset and General Styles
 ============================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 0;
-    padding: 0;
     background-color: #fff;
     color: #333;
 }
@@ -63,8 +67,16 @@ video {
 /* ============================
    Images
 ============================ */
-img {
-    max-width: 200px;
+.landscape {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.icon {
+    width: 150px;
     height: auto;
     margin: 20px auto;
     display: block;
